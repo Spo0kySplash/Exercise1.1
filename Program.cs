@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_1._1
+namespace Exercise1._2
 {
     class Program
     {
@@ -12,15 +12,8 @@ namespace Exercise_1._1
         {
             int a = 238;
             int b = 345;
-            int min = Math.Min(a, b);
-            if (min == a)
-            {
-                Console.WriteLine("b is the biggest number: " + b);
-            }
-            else
-            {
-                Console.WriteLine("a is biggest number: " + a);
-            }
+            int sum = Math.Max(a, b);
+            Console.WriteLine("The Biggest number is: " + sum);
         }
     }
 }
